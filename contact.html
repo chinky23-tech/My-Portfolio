@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/istyle.css">
+    <link rel="stylesheet"  href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html" class="logo-link"><img src="images/She-10.png" alt="She Codes logo">
+            <span class="logo-name"><span class="line1">She</span><span class="line2">Codes</span>
+            </span></a>
+
+        </div>
+
+        <ul class="navlinks"  id="navlinks">
+
+           <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About</a></li>
+        </ul>
+         <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+           </div>
+    </nav>
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id = "contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required/>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required/>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required/>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <div id="errorMessage" class="error"></div>
+            <button type="submit">Send Message</button>
+
+
+        </form>
+    </div>
+        <footer class="footer">
+              <div class="footer-logo">
+            <a href="index.html" class="logo-link"><img src="images/She-10.png" alt="She Codes logo">
+            <span class="logo-name"><span class="line1">She</span><span class="line2">Codes</span>
+            </span></a>
+
+        </div>
+  <div class="footer-content">
+    <p>&copy; 2025 Inderjeet Kaur. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://github.com/chinky23-tech" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/inderjeet-kaur-8b56452b4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="queenheart336@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

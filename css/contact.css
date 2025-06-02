@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--main-color: #2c3e50;
+    --primary-color: #4e54c8;
+    --secondary-color: #8f94fb;
+   --text-color: #ecf0f1;
+   --accent-color: #ffffff;
+   --line2-color:    #8e44ad;
+   --black: #000;
+}
+    .contact-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      background: var(--secondary-color);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px var(--main-color);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: var(--white);
+    }
+
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--main-color);
+      border-radius: 6px;
+      resize: vertical;
+    }
+
+    textarea {
+      min-height: 120px;
+    }
+  input[type="text"],
+    input[type="email"],
+    textarea:focus{
+        outline:  none !important;
+    }
+   
+
+    button{
+        border: 1px solid var(--main-color);
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        color: var(--main-color);
+        background: var(--accent-color);
+    }
+
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .contact-container {
+        padding: 20px;
+        margin: 20px 25px 20px 25px;
+      }
+      button {
+        font-size: 14px;
+      }
+    }
