@@ -1,0 +1,25 @@
+:root{
+--main-color: #2c3e50;
+    --primary-color: #4e54c8;
+    --secondary-color: #8f94fb;
+   --text-color: #ecf0f1;
+   --accent-color: #ffffff;
+   --line2-color:    #8e44ad;
+   --black: #000;
+}
+.project-details{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px 20px;
+}
+.card{
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 4px var(--main-color);
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    margin: 30px;
+}
+.card:hover{
+    transform:  scale(1.05)translateY(-5px);
+}
