@@ -7,6 +7,9 @@
    --line2-color:    #8e44ad;
    --black: #000;
 }
+body{
+    background-image: linear-gradient(to right,var(--accent-color) ,var(--secondary-color), var(--accent-color));
+}
 .project-details{
     max-width: 800px;
     margin: 50px auto;
