@@ -111,7 +111,7 @@ nav ul li a:hover{
   .navlinks{
     display: none;
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: 0;
     width: 100%;
     background-color: var(--secondary-color);
