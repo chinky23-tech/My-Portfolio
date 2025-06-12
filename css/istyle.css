@@ -103,6 +103,8 @@ nav ul li a:hover{
   margin: 3px;
   
 }
+
+
 @media (max-width: 768px){
   .hamburger{
     display: flex;
